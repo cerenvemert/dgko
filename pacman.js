@@ -10,10 +10,10 @@ const restartBtn = document.getElementById("restartBtn");
 const gameOver = document.getElementById("gameOver");
 
 const meImg = new Image();
-meImg.src = "assets/me.png";
+meImg.src = "me.png";
 
 const cerenImg = new Image();
-cerenImg.src = "assets/ceren.png";
+cerenImg.src = "ceren.png";
 
 let gameRunning = true;
 
