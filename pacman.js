@@ -311,6 +311,4 @@ function winGame(){
 
 }
 
-meImg.onload = startIfReady;
-cerenImg.onload = startIfReady;
 
