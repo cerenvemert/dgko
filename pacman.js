@@ -273,19 +273,7 @@ function gameLoop(){
 }
 
 // Resimler yüklendikten sonra başlat
-let loaded = 0;
-
-function startIfReady(){
-
-    loaded++;
-
-    if(loaded === 2){
-
-        requestAnimationFrame(gameLoop);
-
-    }
-
-}
+requestAnimationFrame(gameLoop);
 
 function winGame(){
 
