@@ -49,8 +49,8 @@ startBtn.addEventListener("click", function(){
     
 });;
 const text = 
-"Seninle tanıştığım zaman geçirdiğim kazadan dolayı kötü günler geçiriyordum.\n\n" +
-"Seninle birlikte geçirdiğim günler, bu karanlık dönemlerin en güzel anları oldu.\n\n" +
+"Tanıştığımız zaman geçirdiğim kazadan dolayı kötü günler geçiriyordum.\n\n" +
+"Seninle tanıştığım günler, bu kötü günlerin en güzel anları oldu.\n\n" +
 "Seninle birlikte olduğumda, hayatın ne kadar güzel olduğunu hatırladım.\n\n" +
 "Her şey için teşekkür ederim ve seni çok seviyorum ❤️\n\n"
 
@@ -150,7 +150,7 @@ const memories = [
     {
         img:"ilk-an.jpg",
         title:"İlk Anımız ❤️",
-        text:"Bazen hayatımıza giren bir insanın ne kadar özel olacağını ilk anda anlayamayız... Ama sen benim için zamanla en güzel hikâyeye dönüştün."
+        text:"Hayatıma girdiğin ilk anlarda benim için bu kadar özel birisi olacağını düşünmezdim ama sen benim için zamanla en güzel hikâyeye dönüştün."
     },
 
     {
