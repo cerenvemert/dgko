@@ -35,6 +35,10 @@ const enemy = {
     speed:2
 };
 
+const gameMusic = document.getElementById("gameMusic");
+
+gameMusic.volume = 0.35;
+
 // Kalpler
 const hearts=[];
 
@@ -65,6 +69,8 @@ document.addEventListener("keydown",(e)=>{
 document.addEventListener("keyup",(e)=>{
 
     keys[e.key.toLowerCase()]=false;
+
+    gameMusic.play().catch(() => {});
 
 });
 
@@ -287,7 +293,7 @@ function winGame(){
         <p>100 kalp topladın.</p>
 
         <button id="rewardBtn">
-            🎁 ÖDÜLÜ ALMAK İÇİN TIKLA
+            🎁 Başa dön
         </button>
 
         <br><br>
